@@ -1,0 +1,1071 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"rhs_cargosystem",
+		"ace_sys_vehicledamage",
+		"ap_bmp_fix",
+		"JDG_carrier",
+		"act_kulima",
+		"p85_soviet_pack",
+		"acex_c_vehicle",
+		"acex_ru_c_vehicle",
+		"rhs_c_bmp"
+	};
+	addOnsAuto[]=
+	{
+		"p85_soviet_pack",
+		"rhs_cargosystem",
+		"ace_sys_vehicledamage",
+		"acex_c_vehicle",
+		"acex_ru_c_vehicle",
+		"JDG_carrier",
+		"ap_bmp_fix",
+		"rhs_c_bmp",
+		"act_kulima"
+	};
+	randomSeed=10310962;
+	class Intel
+	{
+		startWeather=0.19999999;
+		forecastWeather=0.30000001;
+		year=2010;
+		month=6;
+		day=11;
+		hour=10;
+		minute=20;
+	};
+	class Groups
+	{
+		items=11;
+		class Item0
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=8;
+				class Item0
+				{
+					position[]={1281.3533,42.41169,3757.5471};
+					azimut=119.72554;
+					special="NONE";
+					id=1;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					init="[this,""SA"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Командир роты";
+				};
+				class Item1
+				{
+					position[]={1281.4739,42.41169,3754.927};
+					azimut=9.725729;
+					special="NONE";
+					id=2;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="LIEUTENANT";
+					skill=1;
+					init="[this,""SA"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Зам. командир роты";
+				};
+				class Item2
+				{
+					position[]={1283.4231,42.41169,3754.4316};
+					azimut=9.725729;
+					special="NONE";
+					id=3;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="LIEUTENANT";
+					skill=1;
+					init="[this,""SA"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Зам. командира по политчасти";
+				};
+				class Item3
+				{
+					position[]={1285.4526,42.41169,3753.9324};
+					azimut=9.725729;
+					special="NONE";
+					id=4;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="SERGEANT";
+					skill=1;
+					init="[this,""SA"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Старшина";
+				};
+				class Item4
+				{
+					position[]={1287.4462,42.41169,3753.4402};
+					azimut=9.725729;
+					special="NONE";
+					id=5;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_field_sol";
+					rank="SERGEANT";
+					skill=1;
+					init="[this,""SA"",""RF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Старший техник роты";
+				};
+				class Item5
+				{
+					position[]={1289.37,42.41169,3752.8706};
+					azimut=9.725729;
+					special="NONE";
+					id=6;
+					side="EAST";
+					vehicle="tusg_P85_ussr_vest_medic";
+					rank="CORPORAL";
+					skill=1;
+					init="[this,""SA"",""MED""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Санинструктор";
+				};
+				class Item6
+				{
+					position[]={1291.3456,42.41169,3752.4312};
+					azimut=4.7257638;
+					special="NONE";
+					id=8;
+					side="EAST";
+					vehicle="tusg_P85_ussr_tank";
+					skill=1;
+					init="[this,""SA"",""CRW""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Наводчик-оператор | БМП-2";
+				};
+				class Item7
+				{
+					position[]={1293.339,42.41169,3751.926};
+					azimut=9.725729;
+					special="NONE";
+					id=7;
+					side="EAST";
+					vehicle="tusg_P85_ussr_tank";
+					skill=1;
+					init="[this,""SA"",""CRW""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Старший водитель | БМП-2";
+				};
+			};
+		};
+		class Item1
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1353.5969,42.799999,3739.7329};
+					azimut=-12.029593;
+					special="NONE";
+					id=9;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					init="[this,""SA"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Командир взвода";
+				};
+				class Item1
+				{
+					position[]={1355.4032,42.799999,3744.2659};
+					azimut=-132.02933;
+					special="NONE";
+					id=10;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="SERGEANT";
+					skill=1;
+					init="[this,""SA"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Зам. командир взвода";
+				};
+				class Item2
+				{
+					position[]={1353.4915,42.799999,3746.2651};
+					azimut=-132.02933;
+					special="NONE";
+					id=11;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""MR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Взводный снайпер";
+				};
+				class Item3
+				{
+					position[]={1351.516,42.799999,3748.4175};
+					azimut=-122.02934;
+					special="NONE";
+					id=12;
+					side="EAST";
+					vehicle="tusg_P85_ussr_vest_medic";
+					rank="CORPORAL";
+					skill=1;
+					init="[this,""SA"",""MED""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Взводный санитар";
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={1317.3197,42.957664,3791.4094};
+					azimut=201.32761;
+					special="NONE";
+					id=13;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					init="[this,""SA"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Командир отделения";
+				};
+				class Item1
+				{
+					position[]={1314.4561,42.954144,3791.1089};
+					azimut=91.328903;
+					special="NONE";
+					id=14;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="CORPORAL";
+					skill=1;
+					init="[this,""SA"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Старший стрелок";
+				};
+				class Item2
+				{
+					position[]={1314.2974,42.849972,3788.998};
+					azimut=91.328903;
+					special="NONE";
+					id=15;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_mg";
+					skill=1;
+					init="[this,""SA"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Пулемётчик РПК";
+				};
+				class Item3
+				{
+					position[]={1313.9425,42.853081,3787.0457};
+					azimut=91.328903;
+					special="NONE";
+					id=16;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_at";
+					skill=1;
+					init="[this,""SA"",""AT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Гранатомётчик";
+				};
+				class Item4
+				{
+					position[]={1313.6185,42.787601,3784.946};
+					azimut=91.328903;
+					special="NONE";
+					id=17;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""AAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Помощник гранатомётчика";
+				};
+				class Item5
+				{
+					position[]={1313.431,42.687931,3783.0046};
+					azimut=91.328903;
+					special="NONE";
+					id=18;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""RF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок";
+				};
+				class Item6
+				{
+					position[]={1313.3334,42.593723,3781.105};
+					azimut=91.328903;
+					special="NONE";
+					id=23;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_gren";
+					skill=1;
+					init="[this,""SA"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок ГП";
+				};
+				class Item7
+				{
+					position[]={1313.1735,42.53492,3779.0964};
+					azimut=91.328903;
+					special="NONE";
+					id=19;
+					side="EAST";
+					vehicle="tusg_P85_ussr_tank";
+					skill=1;
+					init="[this,""SA"",""CRW""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Наводчик-оператор | БМП-2";
+				};
+				class Item8
+				{
+					position[]={1313.0537,42.53027,3777.0767};
+					azimut=91.328903;
+					special="NONE";
+					id=20;
+					side="EAST";
+					vehicle="tusg_P85_ussr_tank";
+					skill=1;
+					init="[this,""SA"",""CRW""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Механик-водитель | БМП-2";
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1697.3059,0.85373217,4725.9165};
+					id=21;
+					side="LOGIC";
+					vehicle="RHS_CargoSystem_Enable";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1881.3165,0.65922362,4728.4434};
+					id=22;
+					side="LOGIC";
+					vehicle="ACE_Vehicledamage_Enable_Cookoff";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item5
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={1315.7668,42.717514,3772.5125};
+					azimut=175.23401;
+					special="NONE";
+					id=27;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					init="[this,""SA"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Командир отделения";
+				};
+				class Item1
+				{
+					position[]={1313.3246,42.811752,3770.9819};
+					azimut=65.235382;
+					special="NONE";
+					id=28;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="CORPORAL";
+					skill=1;
+					init="[this,""SA"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Старший стрелок";
+				};
+				class Item2
+				{
+					position[]={1314.1107,42.851604,3769.0164};
+					azimut=65.235382;
+					special="NONE";
+					id=29;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_mg";
+					skill=1;
+					init="[this,""SA"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Пулемётчик РПК";
+				};
+				class Item3
+				{
+					position[]={1314.6505,42.846874,3767.1104};
+					azimut=65.235382;
+					special="NONE";
+					id=30;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_at";
+					skill=1;
+					init="[this,""SA"",""AT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Гранатомётчик";
+				};
+				class Item4
+				{
+					position[]={1315.2853,42.841312,3765.083};
+					azimut=65.235382;
+					special="NONE";
+					id=31;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""AAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Помощник гранатомётчика";
+				};
+				class Item5
+				{
+					position[]={1315.9712,42.828541,3763.2571};
+					azimut=65.235382;
+					special="NONE";
+					id=32;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""RF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок";
+				};
+				class Item6
+				{
+					position[]={1316.7166,42.813179,3761.5039};
+					azimut=65.235382;
+					special="NONE";
+					id=35;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_gren";
+					skill=1;
+					init="[this,""SA"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок ГП";
+				};
+				class Item7
+				{
+					position[]={1317.4552,42.799999,3759.6318};
+					azimut=65.235382;
+					special="NONE";
+					id=33;
+					side="EAST";
+					vehicle="tusg_P85_ussr_tank";
+					skill=1;
+					init="[this,""SA"",""CRW""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Наводчик-оператор | БМП-2";
+				};
+				class Item8
+				{
+					position[]={1318.2406,42.799999,3757.7646};
+					azimut=65.235382;
+					special="NONE";
+					id=34;
+					side="EAST";
+					vehicle="tusg_P85_ussr_tank";
+					skill=1;
+					init="[this,""SA"",""CRW""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Механик-водитель | БМП-2";
+				};
+			};
+		};
+		class Item6
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={1314.9363,42.799999,3740.4175};
+					azimut=479.90283;
+					special="NONE";
+					id=36;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					init="[this,""SA"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Командир отделения";
+				};
+				class Item1
+				{
+					position[]={1314.8053,42.799999,3737.5376};
+					azimut=369.90387;
+					special="NONE";
+					id=37;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="CORPORAL";
+					skill=1;
+					init="[this,""SA"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Старший стрелок";
+				};
+				class Item2
+				{
+					position[]={1316.8696,42.799999,3737.0649};
+					azimut=369.90387;
+					special="NONE";
+					id=38;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_mg";
+					skill=1;
+					init="[this,""SA"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Пулемётчик РПК";
+				};
+				class Item3
+				{
+					position[]={1318.7468,42.799999,3736.4238};
+					azimut=369.90387;
+					special="NONE";
+					id=39;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_at";
+					skill=1;
+					init="[this,""SA"",""AT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Гранатомётчик";
+				};
+				class Item4
+				{
+					position[]={1320.7726,42.799999,3735.7913};
+					azimut=369.90387;
+					special="NONE";
+					id=40;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""AAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Помощник гранатомётчика";
+				};
+				class Item5
+				{
+					position[]={1322.6675,42.799999,3735.3149};
+					azimut=369.90387;
+					special="NONE";
+					id=41;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""RF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок";
+				};
+				class Item6
+				{
+					position[]={1324.53,42.799999,3734.9329};
+					azimut=369.90387;
+					special="NONE";
+					id=42;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_gren";
+					skill=1;
+					init="[this,""SA"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок ГП";
+				};
+			};
+		};
+		class Item7
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1635.9893,73,3793.0383};
+					azimut=-192.078;
+					special="NONE";
+					id=43;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=1;
+					init="[this,""SA"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Командир взвода";
+				};
+				class Item1
+				{
+					position[]={1635.2971,73,3789.0945};
+					azimut=-312.0773;
+					special="NONE";
+					id=44;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="SERGEANT";
+					skill=1;
+					init="[this,""SA"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Зам. командир взвода";
+				};
+				class Item2
+				{
+					position[]={1637.0132,73,3787.2319};
+					azimut=-312.0773;
+					special="NONE";
+					id=45;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""MR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Взводный снайпер";
+				};
+				class Item3
+				{
+					position[]={1638.6284,73,3785.4272};
+					azimut=-315.05045;
+					special="NONE";
+					id=46;
+					side="EAST";
+					vehicle="tusg_P85_ussr_vest_medic";
+					rank="CORPORAL";
+					skill=1;
+					init="[this,""SA"",""MED""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Взводный санитар";
+				};
+			};
+		};
+		class Item8
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={1653.2434,73,3779.1631};
+					azimut=782.12677;
+					special="NONE";
+					id=47;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					init="[this,""SA"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Командир отделения";
+				};
+				class Item1
+				{
+					position[]={1655.7344,73,3777.302};
+					azimut=672.12756;
+					special="NONE";
+					id=48;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="CORPORAL";
+					skill=1;
+					init="[this,""SA"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Старший стрелок";
+				};
+				class Item2
+				{
+					position[]={1657.2917,73,3778.8345};
+					azimut=672.12756;
+					special="NONE";
+					id=49;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_mg";
+					skill=1;
+					init="[this,""SA"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Пулемётчик РПК";
+				};
+				class Item3
+				{
+					position[]={1658.7163,73,3780.1841};
+					azimut=672.12756;
+					special="NONE";
+					id=50;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_at";
+					skill=1;
+					init="[this,""SA"",""AT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Гранатомётчик";
+				};
+				class Item4
+				{
+					position[]={1660.2676,73,3781.6353};
+					azimut=672.12756;
+					special="NONE";
+					id=51;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""AAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Помощник гранатомётчика";
+				};
+				class Item5
+				{
+					position[]={1661.6812,73,3782.9792};
+					azimut=672.12756;
+					special="NONE";
+					id=52;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""RF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок";
+				};
+				class Item6
+				{
+					position[]={1662.9985,73,3784.3577};
+					azimut=672.12756;
+					special="NONE";
+					id=53;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_gren";
+					skill=1;
+					init="[this,""SA"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок ГП";
+				};
+			};
+		};
+		class Item9
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={1657.9171,73,3821.8208};
+					azimut=599.02997;
+					special="NONE";
+					id=54;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					init="[this,""SA"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Командир отделения";
+				};
+				class Item1
+				{
+					position[]={1655.4692,73,3823.3367};
+					azimut=489.03021;
+					special="NONE";
+					id=55;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="CORPORAL";
+					skill=1;
+					init="[this,""SA"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Старший стрелок";
+				};
+				class Item2
+				{
+					position[]={1653.9904,73,3821.8245};
+					azimut=489.03021;
+					special="NONE";
+					id=56;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_mg";
+					skill=1;
+					init="[this,""SA"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Пулемётчик РПК";
+				};
+				class Item3
+				{
+					position[]={1652.5728,73,3820.4348};
+					azimut=489.03021;
+					special="NONE";
+					id=57;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_at";
+					skill=1;
+					init="[this,""SA"",""AT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Гранатомётчик";
+				};
+				class Item4
+				{
+					position[]={1651.2079,73,3818.8721};
+					azimut=490.32852;
+					special="NONE";
+					id=58;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""AAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Помощник гранатомётчика";
+				};
+				class Item5
+				{
+					position[]={1649.8365,73,3817.4775};
+					azimut=490.32852;
+					special="NONE";
+					id=59;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""RF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок";
+				};
+				class Item6
+				{
+					position[]={1648.5641,73,3816.0625};
+					azimut=490.32852;
+					special="NONE";
+					id=60;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_gren";
+					skill=1;
+					init="[this,""SA"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок ГП";
+				};
+			};
+		};
+		class Item10
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={1643.3729,73,3805.8655};
+					azimut=599.49414;
+					special="NONE";
+					id=61;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					init="[this,""SA"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Командир отделения";
+				};
+				class Item1
+				{
+					position[]={1640.9346,73,3807.4019};
+					azimut=489.49451;
+					special="NONE";
+					id=62;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					rank="CORPORAL";
+					skill=1;
+					init="[this,""SA"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Старший стрелок";
+				};
+				class Item2
+				{
+					position[]={1639.4448,73,3805.8997};
+					azimut=489.49451;
+					special="NONE";
+					id=63;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_mg";
+					skill=1;
+					init="[this,""SA"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Пулемётчик РПК";
+				};
+				class Item3
+				{
+					position[]={1638.0186,73,3804.5227};
+					azimut=489.49451;
+					special="NONE";
+					id=64;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_at";
+					skill=1;
+					init="[this,""SA"",""AT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Гранатомётчик";
+				};
+				class Item4
+				{
+					position[]={1636.6379,73,3802.9712};
+					azimut=490.79276;
+					special="NONE";
+					id=65;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""AAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Помощник гранатомётчика";
+				};
+				class Item5
+				{
+					position[]={1635.2578,73,3801.5896};
+					azimut=490.79276;
+					special="NONE";
+					id=66;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular";
+					skill=1;
+					init="[this,""SA"",""RF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок";
+				};
+				class Item6
+				{
+					position[]={1633.9734,73,3800.1841};
+					azimut=490.79276;
+					special="NONE";
+					id=67;
+					side="EAST";
+					vehicle="tusg_P85_ussr_regular_gren";
+					skill=1;
+					init="[this,""SA"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf""";
+					description="Стрелок ГП";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=5;
+		class Item0
+		{
+			position[]={1323.248,42.799999,3743.7117};
+			azimut=-250.67383;
+			id=0;
+			side="EMPTY";
+			vehicle="ACE_Ural_RU";
+			skill=1;
+			init="[this,""SA"",""MSV""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf"";";
+		};
+		class Item1
+		{
+			position[]={264.0896,0.16555023,581.14624};
+			azimut=-18.017267;
+			special="NONE";
+			id=24;
+			side="EMPTY";
+			vehicle="JDG_carrier_Spawner";
+			leader=1;
+			skill=1;
+			description="Командир роты";
+		};
+		class Item2
+		{
+			position[]={1320.4124,42.799999,3783.2732};
+			azimut=-1256.0757;
+			id=25;
+			side="EMPTY";
+			vehicle="ACE_BMP2_RU2";
+			skill=1;
+			init="[this,""SA"",""MSVB""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""; _=[this,""driver"",""gunner"",""east""] execvm ""MAMaS\isCrew.sqf"";";
+		};
+		class Item3
+		{
+			position[]={1321.7927,42.799999,3766.7542};
+			azimut=-1636.8411;
+			id=26;
+			side="EMPTY";
+			vehicle="ACE_BMP2_RU2";
+			skill=1;
+			init="[this,""SA"",""MSVB""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""; _=[this,""driver"",""gunner"",""east""] execvm ""MAMaS\isCrew.sqf"";";
+		};
+		class Item4
+		{
+			position[]={1289.1808,42.41169,3758.4404};
+			azimut=104.51359;
+			id=68;
+			side="EMPTY";
+			vehicle="rhs_bmp1d_vdv";
+			skill=1;
+			init="[this,""SA"",""HQ""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""; _=[this,""driver"",""gunner"",""east""] execvm ""MAMaS\isCrew.sqf"";";
+		};
+	};
+	class Markers
+	{
+		items=2;
+		class Item0
+		{
+			position[]={2424.4697,0.6618523,4823.3984};
+			name="SOVIET_FLAG";
+			type="Faction_OPFOR_EP1";
+			a=2;
+			b=1.5;
+		};
+		class Item1
+		{
+			position[]={283.68158,17.977547,544.44092};
+			name="US_FLAG";
+			type="Faction_USA_EP1";
+			a=2;
+			b=1.5;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"act_kulima"
+	};
+	addOnsAuto[]=
+	{
+		"act_kulima"
+	};
+	randomSeed=14258153;
+	class Intel
+	{
+		startWeather=0.19999999;
+		forecastWeather=0.30000001;
+		year=2010;
+		month=6;
+		day=11;
+		hour=10;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"act_kulima"
+	};
+	addOnsAuto[]=
+	{
+		"act_kulima"
+	};
+	randomSeed=16694968;
+	class Intel
+	{
+		startWeather=0.19999999;
+		forecastWeather=0.30000001;
+		year=2010;
+		month=6;
+		day=11;
+		hour=10;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"act_kulima"
+	};
+	addOnsAuto[]=
+	{
+		"act_kulima"
+	};
+	randomSeed=3412358;
+	class Intel
+	{
+		startWeather=0.19999999;
+		forecastWeather=0.30000001;
+		year=2010;
+		month=6;
+		day=11;
+		hour=10;
+		minute=20;
+	};
+};

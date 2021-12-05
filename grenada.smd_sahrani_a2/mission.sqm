@@ -1,0 +1,1617 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"us_military_units",
+		"ap_delta",
+		"cacharacters2",
+		"exa_humvees",
+		"retex_vehicles",
+		"CAWheeled_E",
+		"tu_air",
+		"camisc3",
+		"tu_ah1",
+		"smd_sahrani_a2",
+		"caair_e",
+		"CAWeapons_ZU23"
+	};
+	addOnsAuto[]=
+	{
+		"us_military_units",
+		"ap_delta",
+		"cacharacters2",
+		"caair_e",
+		"exa_humvees",
+		"retex_vehicles",
+		"CAWheeled_E",
+		"tu_air",
+		"camisc3",
+		"tu_ah1",
+		"CAWeapons_ZU23",
+		"smd_sahrani_a2"
+	};
+	randomSeed=317215;
+	class Intel
+	{
+		resistanceWest=0;
+		startWeather=0.58406186;
+		forecastWeather=0.30000001;
+		month=8;
+		day=22;
+		hour=5;
+		minute=20;
+	};
+	class Groups
+	{
+		items=22;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9538.4209,139.98311,10104.283};
+					azimut=91.339981;
+					special="NONE";
+					id=1;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_off";
+					leader=1;
+					skill=0.60000002;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Operation commander";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={9542.5537,139.98311,10108.32};
+					azimut=-265.53207;
+					special="NONE";
+					id=2;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_off";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.59999996;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Platoon Leader";
+				};
+				class Item1
+				{
+					position[]={9547.2813,139.98311,10108.967};
+					azimut=-172.32181;
+					special="NONE";
+					id=3;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_medic";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""MED""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Platoon medic";
+				};
+				class Item2
+				{
+					position[]={9545.2988,139.98311,10109.23};
+					azimut=-172.32181;
+					special="NONE";
+					id=4;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_rto";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="RATELO";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={9569.2559,139.98311,10106.28};
+					azimut=-91.076439;
+					special="NONE";
+					id=5;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_nco";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Squad Leader";
+				};
+				class Item1
+				{
+					position[]={9568.623,139.98311,10108.463};
+					azimut=-177.70883;
+					special="NONE";
+					id=6;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item2
+				{
+					position[]={9566.6279,139.98311,10108.543};
+					azimut=-177.70883;
+					special="NONE";
+					id=7;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item3
+				{
+					position[]={9564.6211,139.98311,10108.621};
+					azimut=-177.70883;
+					special="NONE";
+					id=8;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item4
+				{
+					position[]={9562.6338,139.98311,10108.701};
+					azimut=-177.70883;
+					special="NONE";
+					id=9;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_at4";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""LAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Rifleman AT";
+				};
+				class Item5
+				{
+					position[]={9560.6289,139.98311,10108.779};
+					azimut=-177.70883;
+					special="NONE";
+					id=10;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					skill=0.2;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item6
+				{
+					position[]={9558.6348,139.98311,10108.857};
+					azimut=-177.70883;
+					special="NONE";
+					id=11;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					skill=0.2;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item7
+				{
+					position[]={9556.6367,139.98311,10108.943};
+					azimut=-177.70883;
+					special="NONE";
+					id=12;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					skill=0.2;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item8
+				{
+					position[]={9554.6348,139.98311,10109.025};
+					azimut=-177.70883;
+					special="NONE";
+					id=13;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_rm1";
+					skill=0.2;
+					init="[this,""US_ARMY"",""DM""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Designated marskman";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={9592.0664,139.98311,10105.648};
+					azimut=-92.860367;
+					special="NONE";
+					id=14;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_nco";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Squad Leader";
+				};
+				class Item1
+				{
+					position[]={9591.1758,139.98311,10108.358};
+					azimut=-179.49271;
+					special="NONE";
+					id=15;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item2
+				{
+					position[]={9589.1719,139.98311,10108.37};
+					azimut=-179.49271;
+					special="NONE";
+					id=16;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item3
+				{
+					position[]={9587.1758,139.98311,10108.395};
+					azimut=-179.49271;
+					special="NONE";
+					id=17;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item4
+				{
+					position[]={9585.1807,139.98311,10108.409};
+					azimut=-179.49271;
+					special="NONE";
+					id=18;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_at4";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""LAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Rifleman AT";
+				};
+				class Item5
+				{
+					position[]={9583.1758,139.98311,10108.43};
+					azimut=-179.49271;
+					special="NONE";
+					id=19;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					skill=0.2;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item6
+				{
+					position[]={9581.1797,139.98311,10108.446};
+					azimut=-179.49271;
+					special="NONE";
+					id=20;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					skill=0.2;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item7
+				{
+					position[]={9579.1758,139.98311,10108.454};
+					azimut=-179.49271;
+					special="NONE";
+					id=21;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					skill=0.2;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item8
+				{
+					position[]={9577.1777,139.98311,10108.478};
+					azimut=-179.4931;
+					special="NONE";
+					id=22;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_rm1";
+					skill=0.2;
+					init="[this,""US_ARMY"",""DM""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Designated marskman";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={9614.7871,139.98311,10106.496};
+					azimut=-93.928085;
+					special="NONE";
+					id=23;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_nco";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Squad Leader";
+				};
+				class Item1
+				{
+					position[]={9613.2754,139.98311,10108.749};
+					azimut=-180.56044;
+					special="NONE";
+					id=24;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item2
+				{
+					position[]={9611.2725,139.98311,10108.736};
+					azimut=-180.56044;
+					special="NONE";
+					id=25;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item3
+				{
+					position[]={9609.2734,139.98311,10108.719};
+					azimut=-180.56044;
+					special="NONE";
+					id=26;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item4
+				{
+					position[]={9607.2754,139.98311,10108.697};
+					azimut=-180.56044;
+					special="NONE";
+					id=27;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_at4";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""LAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Rifleman AT";
+				};
+				class Item5
+				{
+					position[]={9605.2773,139.98311,10108.677};
+					azimut=-180.56044;
+					special="NONE";
+					id=28;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					skill=0.2;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item6
+				{
+					position[]={9603.2754,139.98311,10108.659};
+					azimut=-180.56044;
+					special="NONE";
+					id=29;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					skill=0.2;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item7
+				{
+					position[]={9601.2734,139.98311,10108.645};
+					azimut=-180.56044;
+					special="NONE";
+					id=30;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					skill=0.2;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item8
+				{
+					position[]={9599.2695,139.98311,10108.619};
+					azimut=-180.56084;
+					special="NONE";
+					id=31;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_rm1";
+					skill=0.2;
+					init="[this,""US_ARMY"",""DM""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Designated marskman";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={9663.3311,139.98311,10107.59};
+					azimut=-274.19406;
+					special="NONE";
+					id=38;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_off";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.59999996;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Platoon Leader";
+				};
+				class Item1
+				{
+					position[]={9667.9043,139.98311,10108.936};
+					azimut=-180.98375;
+					special="NONE";
+					id=39;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_medic";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""MED""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Platoon medic";
+				};
+				class Item2
+				{
+					position[]={9665.9023,139.98311,10108.912};
+					azimut=-180.98352;
+					special="NONE";
+					id=40;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_rto";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="RATELO";
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={9690.4668,139.98311,10107.023};
+					azimut=-94.969109;
+					special="NONE";
+					id=41;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_nco";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Squad Leader";
+				};
+				class Item1
+				{
+					position[]={9689.6836,139.98311,10109.169};
+					azimut=-181.6015;
+					special="NONE";
+					id=42;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item2
+				{
+					position[]={9687.6875,139.98311,10109.107};
+					azimut=-181.6015;
+					special="NONE";
+					id=43;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item3
+				{
+					position[]={9685.6875,139.98311,10109.055};
+					azimut=-181.6015;
+					special="NONE";
+					id=44;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item4
+				{
+					position[]={9683.6924,139.98311,10109};
+					azimut=-181.6015;
+					special="NONE";
+					id=45;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_at4";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""LAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Rifleman AT";
+				};
+				class Item5
+				{
+					position[]={9681.6865,139.98311,10108.938};
+					azimut=-181.6015;
+					special="NONE";
+					id=46;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					skill=0.2;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item6
+				{
+					position[]={9679.6934,139.98311,10108.888};
+					azimut=-181.6015;
+					special="NONE";
+					id=47;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					skill=0.2;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item7
+				{
+					position[]={9677.6914,139.98311,10108.824};
+					azimut=-181.6015;
+					special="NONE";
+					id=48;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					skill=0.2;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item8
+				{
+					position[]={9675.6875,139.98311,10108.773};
+					azimut=-181.6015;
+					special="NONE";
+					id=49;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_rm1";
+					skill=0.2;
+					init="[this,""US_ARMY"",""DM""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Designated marskman";
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={9714.1113,139.98311,10106.859};
+					azimut=-95.787895;
+					special="NONE";
+					id=50;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_nco";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Squad Leader";
+				};
+				class Item1
+				{
+					position[]={9713.0869,139.98311,10109.518};
+					azimut=-182.42021;
+					special="NONE";
+					id=51;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item2
+				{
+					position[]={9711.0879,139.98311,10109.432};
+					azimut=-182.42021;
+					special="NONE";
+					id=52;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item3
+				{
+					position[]={9709.0918,139.98311,10109.353};
+					azimut=-182.42021;
+					special="NONE";
+					id=53;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item4
+				{
+					position[]={9707.0928,139.98311,10109.265};
+					azimut=-182.42021;
+					special="NONE";
+					id=54;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_at4";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""LAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Rifleman AT";
+				};
+				class Item5
+				{
+					position[]={9705.0898,139.98311,10109.182};
+					azimut=-182.42021;
+					special="NONE";
+					id=55;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					skill=0.2;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item6
+				{
+					position[]={9703.0898,139.98311,10109.095};
+					azimut=-182.42021;
+					special="NONE";
+					id=56;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					skill=0.2;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item7
+				{
+					position[]={9701.0918,139.98311,10109.006};
+					azimut=-182.42021;
+					special="NONE";
+					id=57;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					skill=0.2;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item8
+				{
+					position[]={9699.0957,139.98311,10108.927};
+					azimut=-182.42061;
+					special="NONE";
+					id=58;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_rm1";
+					skill=0.2;
+					init="[this,""US_ARMY"",""DM""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Designated marskman";
+				};
+			};
+		};
+		class Item8
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={9736.5352,139.98311,10107.811};
+					azimut=-95.39576;
+					special="NONE";
+					id=59;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_nco";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Squad Leader";
+				};
+				class Item1
+				{
+					position[]={9734.9688,139.98311,10110.029};
+					azimut=-182.02809;
+					special="NONE";
+					id=60;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item2
+				{
+					position[]={9732.96,139.98311,10109.959};
+					azimut=-182.02809;
+					special="NONE";
+					id=61;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item3
+				{
+					position[]={9730.9707,139.98311,10109.885};
+					azimut=-182.02809;
+					special="NONE";
+					id=62;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item4
+				{
+					position[]={9728.9707,139.98311,10109.811};
+					azimut=-182.02809;
+					special="NONE";
+					id=63;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_at4";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""LAT""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Rifleman AT";
+				};
+				class Item5
+				{
+					position[]={9726.9707,139.98311,10109.741};
+					azimut=-182.02809;
+					special="NONE";
+					id=64;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ftl";
+					skill=0.2;
+					init="[this,""US_ARMY"",""TL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Team Leader";
+				};
+				class Item6
+				{
+					position[]={9724.9727,139.98311,10109.67};
+					azimut=-182.02809;
+					special="NONE";
+					id=65;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_ar";
+					skill=0.2;
+					init="[this,""US_ARMY"",""AR""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Automatic rifleman";
+				};
+				class Item7
+				{
+					position[]={9722.9727,139.98311,10109.603};
+					azimut=-182.02809;
+					special="NONE";
+					id=66;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_gr";
+					skill=0.2;
+					init="[this,""US_ARMY"",""GL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Grenadier";
+				};
+				class Item8
+				{
+					position[]={9720.9746,139.98311,10109.529};
+					azimut=-182.0285;
+					special="NONE";
+					id=67;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_rm1";
+					skill=0.2;
+					init="[this,""US_ARMY"",""DM""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Designated marskman";
+				};
+			};
+		};
+		class Item9
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={9632.0996,139.98311,10107.69};
+					azimut=-97.108215;
+					special="NONE";
+					id=68;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_nco";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="MG Squad Leader";
+				};
+				class Item1
+				{
+					position[]={9630.4668,139.98311,10109.857};
+					azimut=-183.74055;
+					special="NONE";
+					id=69;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_mg";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""MG""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Machinegunner";
+				};
+				class Item2
+				{
+					position[]={9628.4697,139.98311,10109.727};
+					azimut=-183.74055;
+					special="NONE";
+					id=70;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_amg";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""MGA""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Machinegunner Assistant";
+				};
+				class Item3
+				{
+					position[]={9626.4707,139.98311,10109.602};
+					azimut=-183.74055;
+					special="NONE";
+					id=71;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_mgab";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""MGAB""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Machinegunner ammo bearer";
+				};
+				class Item4
+				{
+					position[]={9624.4795,139.98311,10109.464};
+					azimut=-183.7406;
+					special="NONE";
+					id=72;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_mg";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""MG""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Machinegunner";
+				};
+				class Item5
+				{
+					position[]={9622.4814,139.98311,10109.336};
+					azimut=-183.7406;
+					special="NONE";
+					id=73;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_amg";
+					skill=0.2;
+					init="[this,""US_ARMY"",""MGA""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Machinegunner Assistant";
+				};
+				class Item6
+				{
+					position[]={9620.4863,139.98311,10109.207};
+					azimut=-183.7406;
+					special="NONE";
+					id=74;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_mgab";
+					skill=0.2;
+					init="[this,""US_ARMY"",""MGAB""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Machinegunner ammo bearer";
+				};
+			};
+		};
+		class Item10
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={9745.5967,139.98311,10110.326};
+					azimut=-181.58569;
+					special="NONE";
+					id=77;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_medic";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.59999996;
+					init="[this,""US_ARMY"",""MED""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Medic Squad Leader";
+				};
+				class Item1
+				{
+					position[]={9750.6836,139.98311,10110.443};
+					azimut=-176.12654;
+					special="NONE";
+					id=78;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_medic";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""MED""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Medic";
+				};
+				class Item2
+				{
+					position[]={9748.3613,139.98311,10110.394};
+					azimut=-176.12654;
+					special="NONE";
+					id=79;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_medic";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""MED""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Medic";
+				};
+			};
+		};
+		class Item11
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={9677.9121,139.98311,10021.295};
+					azimut=-437.66745;
+					special="NONE";
+					id=81;
+					side="WEST";
+					vehicle="delta_93_d_h_nvg_ftl";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.59999996;
+					init="[this,""US_ARMY"",""SN_SL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Sniper Team Leader";
+				};
+				class Item1
+				{
+					position[]={9673.1211,139.98311,10021.067};
+					azimut=-344.45755;
+					special="NONE";
+					id=82;
+					side="WEST";
+					vehicle="delta_93_d_h_nvg_ftl";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="[this,""US_ARMY"",""SN_OB""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Observer";
+				};
+				class Item2
+				{
+					position[]={9675.0898,139.98311,10020.759};
+					azimut=-344.45755;
+					special="NONE";
+					id=83;
+					side="WEST";
+					vehicle="delta_93_d_h_nvg_ftl";
+					rank="CORPORAL";
+					skill=0.33333331;
+					init="[this,""US_ARMY"",""SN""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Sniper";
+				};
+			};
+		};
+		class Item12
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={9632.8652,139.98311,10019.391};
+					azimut=-358.83633;
+					special="NONE";
+					id=84;
+					side="WEST";
+					vehicle="USMC_Soldier_Pilot";
+					leader=1;
+					rank="CAPTAIN";
+					skill=0.59999996;
+					init="[this,""US_ARMY"",""PL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Pilot UH-60";
+				};
+				class Item1
+				{
+					position[]={9636.8887,139.98311,10016.197};
+					azimut=-349.06033;
+					special="NONE";
+					id=85;
+					side="WEST";
+					vehicle="USMC_Soldier_Pilot";
+					rank="CAPTAIN";
+					skill=0.59999996;
+					init="[this,""US_ARMY"",""PL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Gunner UH-60";
+				};
+				class Item2
+				{
+					position[]={9628.5322,139.98311,10016.539};
+					azimut=-354.24063;
+					special="NONE";
+					id=86;
+					side="WEST";
+					vehicle="USMC_Soldier_Pilot";
+					rank="CAPTAIN";
+					skill=0.59999996;
+					init="[this,""US_ARMY"",""PL""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Gunner UH-60";
+				};
+			};
+		};
+		class Item13
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9539.8223,139.98311,10083.111};
+					azimut=185.75368;
+					special="NONE";
+					id=93;
+					side="WEST";
+					vehicle="usm_ranger_93_d_h_off";
+					leader=1;
+					skill=0.60000002;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Operation commander";
+				};
+			};
+		};
+		class Item14
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9541.5654,139.98311,10083.061};
+					azimut=185.754;
+					special="NONE";
+					id=94;
+					side="WEST";
+					vehicle="usm_soldier_90s_w_h_off";
+					leader=1;
+					skill=0.60000002;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Operation commander";
+				};
+			};
+		};
+		class Item15
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9543.3867,139.98311,10083.153};
+					azimut=185.754;
+					special="NONE";
+					id=95;
+					side="WEST";
+					vehicle="usm_soldier_90s_w_h_off";
+					leader=1;
+					skill=0.60000002;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Operation commander";
+				};
+			};
+		};
+		class Item16
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9544.9766,139.98311,10083.091};
+					azimut=185.754;
+					special="NONE";
+					id=96;
+					side="WEST";
+					vehicle="usm_soldier_80s_w_h_off";
+					leader=1;
+					skill=0.60000002;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Operation commander";
+				};
+			};
+		};
+		class Item17
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9546.9473,139.98311,10083.166};
+					azimut=185.754;
+					special="NONE";
+					id=97;
+					side="WEST";
+					vehicle="usm_soldier_80s_w_h_off";
+					leader=1;
+					skill=0.60000002;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Operation commander";
+				};
+			};
+		};
+		class Item18
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9474.2559,139.98311,9960.3359};
+					azimut=358.76501;
+					special="NONE";
+					id=98;
+					side="WEST";
+					vehicle="usm_marine_80s_w_h_rm1";
+					leader=1;
+					skill=0.60000002;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Operation commander";
+				};
+			};
+		};
+		class Item19
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9545.2549,139.98311,10077.232};
+					azimut=358.76501;
+					special="NONE";
+					id=99;
+					side="WEST";
+					vehicle="usm_marine_80s_w_h_rm1";
+					leader=1;
+					skill=0.60000002;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Operation commander";
+				};
+			};
+		};
+		class Item20
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10130.614,138.75572,9969.9844};
+					azimut=358.76501;
+					special="NONE";
+					id=103;
+					side="WEST";
+					vehicle="usm_marine_80s_w_h_rm1";
+					leader=1;
+					skill=0.60000002;
+					init="[this,""US_ARMY"",""OFF""] call compile preprocessFileLineNumbers ""Equipment\_process_units.sqf"";";
+					description="Operation commander";
+				};
+			};
+		};
+		class Item21
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6141.1636,0.15316011,10695.269};
+					azimut=449.517;
+					special="FLY";
+					id=105;
+					side="WEST";
+					vehicle="C130J_US_EP1";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					description="Operation commander";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11740.314,-0.021298163,10693.744};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=20;
+		class Item0
+		{
+			position[]={9545.6582,139.98311,10102.488};
+			azimut=-89.559883;
+			id=0;
+			side="EMPTY";
+			vehicle="HMMWV_M134_Armored_D";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item1
+		{
+			position[]={9556.0869,139.98311,10102.188};
+			azimut=-89.559883;
+			id=32;
+			side="EMPTY";
+			vehicle="HMMWV_M2_DES";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item2
+		{
+			position[]={9564.8477,139.98311,10101.785};
+			azimut=-89.559883;
+			id=33;
+			side="EMPTY";
+			vehicle="HMMWV_DES_EP1";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item3
+		{
+			position[]={9580.1768,139.98311,10101.121};
+			azimut=-89.559883;
+			id=34;
+			side="EMPTY";
+			vehicle="HMMWV_MK19_DES_EP1";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item4
+		{
+			position[]={9588.3369,139.98311,10101.133};
+			azimut=-89.559883;
+			id=35;
+			side="EMPTY";
+			vehicle="HMMWV_DES_EP1";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item5
+		{
+			position[]={9600.252,139.98311,10101.031};
+			azimut=-91.659058;
+			id=36;
+			side="EMPTY";
+			vehicle="ExA_HMMWV_M2_USMC";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item6
+		{
+			position[]={9609.0156,139.98311,10100.955};
+			azimut=-91.659027;
+			id=37;
+			side="EMPTY";
+			vehicle="ExA_HMMWV_TROOP";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item7
+		{
+			position[]={9626.6074,139.98311,10101.697};
+			azimut=-93.679138;
+			id=75;
+			side="EMPTY";
+			vehicle="ExA_HMMWV_TROOP";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item8
+		{
+			position[]={9748.333,139.98311,10102.36};
+			azimut=-91.666389;
+			id=76;
+			side="EMPTY";
+			vehicle="HMMWV_Ambulance_DES_EP1";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""MED""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item9
+		{
+			position[]={9634.2734,139.98311,10031.482};
+			azimut=272.77203;
+			special="NONE";
+			id=80;
+			side="EMPTY";
+			vehicle="TU_MH60L";
+			skill=0.46666664;
+			init="[this,""US_ARMY"",""UH""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""; _=[this,""driver""] execvm ""MAMaS\isCrew.sqf"";";
+		};
+		class Item10
+		{
+			position[]={9665.8564,139.98311,10101.429};
+			azimut=-86.055794;
+			id=87;
+			side="EMPTY";
+			vehicle="HMMWV_M134_Armored_D";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item11
+		{
+			position[]={9677.25,139.98311,10101.529};
+			azimut=-87.109169;
+			id=88;
+			side="EMPTY";
+			vehicle="HMMWV_M2_DES";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item12
+		{
+			position[]={9685.9873,139.98311,10100.76};
+			azimut=-87.109169;
+			id=89;
+			side="EMPTY";
+			vehicle="HMMWV_DES_EP1";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item13
+		{
+			position[]={9701.8887,139.98311,10101.826};
+			azimut=-87.109169;
+			id=90;
+			side="EMPTY";
+			vehicle="HMMWV_MK19_DES_EP1";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item14
+		{
+			position[]={9710.627,139.98311,10101.053};
+			azimut=-87.109169;
+			id=91;
+			side="EMPTY";
+			vehicle="HMMWV_DES_EP1";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item15
+		{
+			position[]={9727.8926,139.98311,10101.18};
+			azimut=-93.4674;
+			id=92;
+			side="EMPTY";
+			vehicle="ExA_HMMWV_TROOP";
+			skill=0.60000002;
+			init="[this,""US_ARMY"",""HMMW""] call compile preprocessFileLineNumbers ""Equipment\_process_vehicles.sqf""";
+		};
+		class Item16
+		{
+			position[]={9699.1182,139.98311,9948.3262};
+			azimut=315.92892;
+			special="NONE";
+			id=100;
+			side="EMPTY";
+			vehicle="BRDMWreck";
+			leader=1;
+			skill=0.60000002;
+			description="Operation commander";
+		};
+		class Item17
+		{
+			position[]={9567.8447,139.98311,10073.27};
+			azimut=358.76501;
+			special="NONE";
+			id=101;
+			side="EMPTY";
+			vehicle="TU_AH1F";
+			leader=1;
+			skill=0.60000002;
+			description="Operation commander";
+		};
+		class Item18
+		{
+			position[]={9456.3535,139.98311,9965.9756};
+			azimut=358.76501;
+			special="NONE";
+			id=102;
+			side="EMPTY";
+			vehicle="ZU23_Ins";
+			leader=1;
+			skill=0.60000002;
+			description="Operation commander";
+		};
+		class Item19
+		{
+			position[]={10112.712,139.29933,9975.624};
+			azimut=358.76501;
+			special="NONE";
+			id=104;
+			side="EMPTY";
+			vehicle="ZU23_Ins";
+			leader=1;
+			skill=0.60000002;
+			description="Operation commander";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"smd_sahrani_a2"
+	};
+	addOnsAuto[]=
+	{
+		"smd_sahrani_a2"
+	};
+	randomSeed=9915908;
+	class Intel
+	{
+		startWeather=0.1;
+		forecastWeather=0.30000001;
+		year=2007;
+		month=6;
+		day=7;
+		hour=8;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"smd_sahrani_a2"
+	};
+	addOnsAuto[]=
+	{
+		"smd_sahrani_a2"
+	};
+	randomSeed=4278175;
+	class Intel
+	{
+		startWeather=0.1;
+		forecastWeather=0.30000001;
+		year=2007;
+		month=6;
+		day=7;
+		hour=8;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"smd_sahrani_a2"
+	};
+	addOnsAuto[]=
+	{
+		"smd_sahrani_a2"
+	};
+	randomSeed=7750273;
+	class Intel
+	{
+		startWeather=0.1;
+		forecastWeather=0.30000001;
+		year=2007;
+		month=6;
+		day=7;
+		hour=8;
+	};
+};

@@ -1,0 +1,81 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"desert_e"
+	};
+	addOnsAuto[]=
+	{
+		"desert_e"
+	};
+	randomSeed=4968933;
+	class Intel
+	{
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"desert_e"
+	};
+	addOnsAuto[]=
+	{
+		"desert_e"
+	};
+	randomSeed=10025134;
+	class Intel
+	{
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"desert_e"
+	};
+	addOnsAuto[]=
+	{
+		"desert_e"
+	};
+	randomSeed=10558442;
+	class Intel
+	{
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"desert_e"
+	};
+	addOnsAuto[]=
+	{
+		"desert_e"
+	};
+	randomSeed=6966908;
+	class Intel
+	{
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+	};
+};

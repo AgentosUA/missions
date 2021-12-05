@@ -1,0 +1,1 @@
+diag_log format["[%1] %2", time, _this select 0];

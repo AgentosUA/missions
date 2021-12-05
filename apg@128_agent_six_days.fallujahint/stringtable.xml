@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ID="Arma2">
+  <Package ID="Missions">
+    <Container ID="MAMaS">
+		<!-- Название миссии -->
+		<Key ID="STR_missionname">
+			<Original>
+			Six Days in Hell
+			</Original>
+		</Key> 
+		<Key ID="credits">
+			<Original>
+			Автор миссии: [WFA]Agentos
+			</Original>
+		</Key>
+		<Key ID="convent">
+			<Original>
+		&lt;font color='#FFDD00'&gt;ОБЩИЕ&lt;/font&gt;:
+		&lt;br/&gt; - Для освобождения пилота необходимо использовать пункт в меню-прокрутки - "Развязать руки"
+		&lt;br/&gt; - Максимальные потери сторон: &lt;font color='#FF0000'&gt;90&lt;/font&gt;%.
+		&lt;br/&gt; - Ограничение по времени: &lt;font color='#FF0000'&gt;90&lt;/font&gt; минут.
+		&lt;br/&gt;&lt;br/&gt;&lt;font color='#3366FF'&gt;USMC&lt;/font&gt;:
+		&lt;br/&gt; - Пилоту запрещено прожимать respawn.
+		&lt;br/&gt; - Пилоту запрещено самостоятельно развязывать себе руки первые 30 минут после warbegin.
+		&lt;br/&gt; - Для победы нужно уничтожить три ящика с оружием (&lt;marker name = 'cache1'&gt;1&lt;/marker&gt;, &lt;marker name = 'cache2'&gt;2&lt;/marker&gt;, &lt;marker name = 'cache3'&gt;3&lt;/marker&gt;), взорвать остатки &lt;marker name = 'cache1'&gt;EAGLE-1&lt;/marker&gt;, и если пленный пилот жив - доставить его в &lt;marker name = 'zone'&gt;аэропорт&lt;/marker&gt;
+		&lt;br/&gt;&lt;br/&gt;&lt;font color='#35A31A'&gt;Талибан&lt;/font&gt;:
+		&lt;br/&gt; - Запрещено убивать, калечить и развязывать руки пленному пилоту пока тот связан.
+		&lt;br/&gt; - Запрещено пересекать синие точки (двигаться по дорогам можно).
+		&lt;br/&gt; - Для победы нужно не дать уничтожить ящики с оружием (&lt;marker name = 'cache1'&gt;1&lt;/marker&gt;, &lt;marker name = 'cache2'&gt;2&lt;/marker&gt;, &lt;marker name = 'cache3'&gt;3&lt;/marker&gt;), или не дать взорвать остатки &lt;marker name = 'cache1'&gt;EAGLE-1&lt;/marker&gt;, или если пилот жив - не дать доставить его в &lt;marker name = 'zone'&gt;аэропорт&lt;/marker&gt;.
+			</Original>
+		</Key>
+	<!-- информация для прессы -->
+		<Key ID="situation_tv">
+			<Original>
+			
+			</Original>
+		</Key>
+		<!-- информация для bluefor -->
+		<Key ID="situation_bf">
+			<Original>
+			Наш вертолет в ходе разведки был сбит. Мы смогли установить местонаходжение пилота и сбитой птички. Для уничтожения обломков и спасения пилота уже вылетели две группы Force Recon: "Razor" и "Sabre". Кроме того, мы обнаружили три схрона с оружием. Сегодня нам предстоит выполнить много задач в условиях тяжелого городского боя, все по машинам!
+			</Original>
+		</Key>
+		<Key ID="task_bf">
+			<Original>
+			Уничтожить три ящика с оружием (&lt;marker name = 'cache1'&gt;1&lt;/marker&gt;, &lt;marker name = 'cache2'&gt;2&lt;/marker&gt;, &lt;marker name = 'cache3'&gt;3&lt;/marker&gt;), взорвать остатки &lt;marker name = 'cache1'&gt;EAGLE-1&lt;/marker&gt;, и если пленный пилот жив - доставить его в &lt;marker name = 'zone'&gt;аэропорт&lt;/marker&gt;
+			</Original>
+		</Key>
+		<Key ID="execution_bf">
+			<Original>
+			На усмотрение командования
+			</Original>
+		</Key>
+		<Key ID="machinery_bf">
+			<Original>
+			&lt;br/&gt;1x A-10
+			&lt;br/&gt;2x M1A2 TUSK
+			&lt;br/&gt;2x AAVP7A1
+			</Original>
+		</Key>
+		<Key ID="enemy_bf">
+			<Original>
+			Боевики, возможно со старой советской техникой.
+			</Original>
+		</Key>
+		<!-- информация для redfor -->
+		<Key ID="situation_rf">
+			<Original>
+			Описание
+			</Original>
+		</Key>
+		<Key ID="task_rf">
+			<Original>
+			Задача красные
+			</Original>
+		</Key>
+		<Key ID="machinery_rf">
+			<Original>
+			Вооружение красных
+			</Original>
+		</Key>
+		<Key ID="execution_rf">
+			<Original>
+			На усмотрение командования
+			</Original>
+		</Key>
+		<Key ID="enemy_rf">
+			<Original>
+			USMC
+			</Original>
+		</Key>
+		<!-- информация для независимых -->
+		<Key ID="situation_guer">
+			<Original>
+			Перед началом их жалкой операции мы сбили одну вертушку и взяли в плен пилота. Как его там... эээ, Майлс, да! Теперь они будут вынуждены придти к нам и забрать его! Ещё и полезный материал есть в этой птичке! Столько электроники! Ха! Глупые амерканцы! Кроме пилота они собираются уничтожить наши схроны с оружием! Этого допустить никак нельзя! Абдул, собирай своих людей, мы готовим нашу часть города к обороне!
+			</Original>
+		</Key>
+		<Key ID="task_guer">
+			<Original>
+			Необходимо не дать уничтожить ящики с оружием (&lt;marker name = 'cache1'&gt;1&lt;/marker&gt;, &lt;marker name = 'cache2'&gt;2&lt;/marker&gt;, &lt;marker name = 'cache3'&gt;3&lt;/marker&gt;), или не дать взорвать остатки &lt;marker name = 'cache1'&gt;EAGLE-1&lt;/marker&gt;, или если пилот жив - не дать доставить его в &lt;marker name = 'zone'&gt;аэропорт&lt;/marker&gt;.
+			</Original>
+		</Key>
+		<Key ID="machinery_guer">
+			<Original>
+			&lt;br/&gt;1x Land Rover SPG
+			&lt;br/&gt;1x Т-55 AMV
+			&lt;br/&gt;1x Т-34
+			&lt;br/&gt;1x Шкода (Мед)
+			&lt;br/&gt;Гражданская техника
+			</Original>
+		</Key>
+		<Key ID="execution_guer">
+			<Original>
+			На усмотрение командира
+			</Original>
+		</Key>
+		<Key ID="enemy_guer">
+			<Original>
+			Морпехи с тяжелой техникой.
+			</Original>
+		</Key>
+		<!-- заголовки в заметках -->
+		<Key ID="groups_title">
+			<Original>Squads</Original>
+			<Russian>Отряды</Russian>
+		</Key>
+		<Key ID="credits_title">
+			<Original>Credits</Original>
+			<Russian>Авторы</Russian>
+		</Key>
+		<Key ID="situation_title">
+			<Original>Overview</Original>
+			<Russian>Общее положение дел</Russian>
+		</Key>
+		<Key ID="task_title">
+			<Original>Tasks</Original>
+			<Russian>Поставленная задача</Russian>
+		</Key>
+		<Key ID="execution_title">
+			<Original>Execution</Original>
+			<Russian>Исполнение</Russian>
+		</Key>
+		<Key ID="machinery_title">
+			<Original>Weapons and vehicles</Original>
+			<Russian>Техника и вооружение</Russian>
+		</Key>
+		<Key ID="enemy_title">
+			<Original>Enemy Intel</Original>
+			<Russian>Противник</Russian>
+		</Key>
+		<Key ID="convent_title">
+			<Original>Conventionalities</Original>
+			<Russian>Условности</Russian>
+		</Key>
+		<!-- Строки ниже используются платформой. Навряд-ли понадобится там что-то менять. -->
+		<!-- Опции в лобби: погода, время суток, брифинг ингейм. -->
+		<Key ID="STR_timeOfDay">
+			<Original>Time of Day</Original>
+			<Russian>Время суток</Russian>
+		</Key>
+		<Key ID="STR_timeOfDay_Option0">
+			<Original>Dawn</Original>
+			<Russian>Рассвет</Russian>
+		</Key>
+		<Key ID="STR_timeOfDay_Option1">
+			<Original>Early Morning</Original>
+			<Russian>Раннее утро</Russian>
+		</Key>
+		<Key ID="STR_timeOfDay_Option2">
+			<Original>Morning</Original>
+			<Russian>Утро</Russian>
+		</Key>
+		<Key ID="STR_timeOfDay_Option3">
+			<Original>Noon</Original>
+			<Russian>Полдень</Russian>
+		</Key>
+		<Key ID="STR_timeOfDay_Option4">
+			<Original>Afternoon</Original>
+			<Russian>Середина дня</Russian>
+		</Key>
+		<Key ID="STR_timeOfDay_Option5">
+			<Original>Evening</Original>
+			<Russian>Вечер</Russian>
+		</Key>
+		<Key ID="STR_timeOfDay_Option6">
+			<Original>Dusk</Original>
+			<Russian>Сумерки</Russian>
+		</Key>
+		<Key ID="STR_timeOfDay_Option7">
+			<Original>Night</Original>
+			<Russian>Ночь</Russian>
+		</Key>
+		<Key ID="STR_timeOfDay_Option8">
+			<Original>Default</Original>
+			<Russian>По настройкам карты</Russian>
+		</Key>
+		<Key ID="STR_weather">
+			<Original>Weather</Original>
+			<Russian>Погода</Russian>
+		</Key>
+		<Key ID="STR_weather_Option0">
+			<Original>Clear</Original>
+			<Russian>Безоблачно</Russian>
+		</Key>
+		<Key ID="STR_weather_Option1">
+			<Original>Overcast</Original>
+			<Russian>Облачно</Russian>
+		</Key>
+		<Key ID="STR_weather_Option2">
+			<Original>Light Fog</Original>
+			<Russian>Туман</Russian>
+		</Key>
+		<Key ID="STR_weather_Option3">
+			<Original>Heavy Fog</Original>
+			<Russian>Густой туман</Russian>
+		</Key>
+		<Key ID="STR_weather_Option4">
+			<Original>Storm</Original>
+			<Russian>Гроза</Russian>
+		</Key>
+		<Key ID="STR_weather_Option5">
+			<Original>Default</Original>
+			<Russian>По настройкам карты</Russian>
+		</Key>
+		<Key ID="STR_briefing_mode">
+			<Original>Briefing ingame</Original>
+			<Russian>Брифинг ингейм</Russian>
+		</Key>
+		<Key ID="STR_briefing_mode_Option0">
+			<Original>Without briefing</Original>
+			<Russian>Без брифинга</Russian>
+		</Key>
+		<Key ID="STR_briefing_mode_Option1">
+			<Original>3 minutes</Original>
+			<Russian>3 минуты</Russian>
+		</Key>
+		<Key ID="STR_briefing_mode_Option2">
+			<Original>5 minutes</Original>
+			<Russian>5 минут</Russian>
+		</Key>
+		<Key ID="STR_briefing_mode_Option3">
+			<Original>7 minutes</Original>
+			<Russian>7 минут</Russian>
+		</Key>
+		<Key ID="STR_briefing_mode_Option4">
+			<Original>10 minutes</Original>
+			<Russian>10 минут</Russian>
+		</Key>
+		<Key ID="STR_briefing_mode_Option5">
+			<Original>15 minutes</Original>
+			<Russian>15 минут</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_loading">
+			<Original>Loading</Original>
+			<Russian>Вход в игру</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_loading_Option0">
+			<Original>Auto</Original>
+			<Russian>Авто</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_loading_Option1">
+			<Original>Any</Original>
+			<Russian>Без ограничений</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_loading_Option2">
+			<Original>Only group leaders</Original>
+			<Russian>Только командиры групп</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_Settings">
+			<Original>Settings</Original>
+			<Russian>Настройки</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_markersControl">
+			<Original>==== &lt;font color='#cfe800'&gt;MARKERS&lt;/font&gt; ====&lt;br /&gt;Group Markers: [&lt;execute expression='[0,0] call MAMaS_blnd_fnc_MarkersActions'&gt;Name and icon&lt;/execute&gt;] [&lt;execute expression='[0,1] call MAMaS_blnd_fnc_MarkersActions'&gt;Icon only]&lt;/execute&gt; [&lt;execute expression='[0,2] call MAMaS_blnd_fnc_MarkersActions'&gt;Hide&lt;/execute&gt;]&lt;br /&gt;Vehicle Markers: [&lt;execute expression='[1,0] call MAMaS_blnd_fnc_MarkersActions'&gt;Name and icon&lt;/execute&gt;] [&lt;execute expression='[1,1] call MAMaS_blnd_fnc_MarkersActions'&gt;Icon only]&lt;/execute&gt; [&lt;execute expression='[1,2] call MAMaS_blnd_fnc_MarkersActions'&gt;Hide&lt;/execute&gt;]</Original>
+			<Russian>==== &lt;font color='#cfe800'&gt;МАРКЕРА&lt;/font&gt; ====&lt;br /&gt;Маркера Групп: [&lt;execute expression='[0,0] call MAMaS_blnd_fnc_MarkersActions'&gt;Имя и иконка&lt;/execute&gt;] [&lt;execute expression='[0,1] call MAMaS_blnd_fnc_MarkersActions'&gt;Только иконка]&lt;/execute&gt; [&lt;execute expression='[0,2] call MAMaS_blnd_fnc_MarkersActions'&gt;Спрятать&lt;/execute&gt;]&lt;br /&gt;Маркера Техники: [&lt;execute expression='[1,0] call MAMaS_blnd_fnc_MarkersActions'&gt;Имя и иконка&lt;/execute&gt;] [&lt;execute expression='[1,1] call MAMaS_blnd_fnc_MarkersActions'&gt;Только иконка]&lt;/execute&gt; [&lt;execute expression='[1,2] call MAMaS_blnd_fnc_MarkersActions'&gt;Спрятать&lt;/execute&gt;]</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_end_briefing">
+			<Original>End briefing</Original>
+			<Russian>Закончить брифинг</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_continue_briefing">
+			<Original>Сontinue briefing</Original>
+			<Russian>Продолжить брифинг</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_outOfZone">
+			<Original>You're leaving zone of briefing</Original>
+			<Russian>Вы покидаете зону брифинга</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_sorry">
+			<Original>Sorry</Original>
+			<Russian>Мне очень жаль</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_endMission">
+			<Original>End mission</Original>
+			<Russian>Завершение игры</Russian>
+		</Key>
+
+		<Key ID="STR_MAMaS_SpectatorLimitations">
+			<Original>Spectator limitations</Original>
+			<Russian>Ограничения спектатора</Russian>
+		</Key>
+		<!-- это добавил Зу хз зачем -->
+		<Key ID="STR_On">
+			<Original>ON</Original>
+			<Russian>Вкл.</Russian>
+		</Key>
+		<Key ID="STR_Off">
+			<Original>Off</Original>
+			<Russian>Выкл.</Russian>
+		</Key>
+		<Key ID="UAV_Launch">
+			<Original>Launch UAV</Original>
+			<Russian>Запуск БПЛА</Russian>
+		</Key>
+		<Key ID="UAV_LaunchOnMap">
+			<Original>Right Click on Map for Launch UAV to desired location</Original>
+			<Russian>Щелкните правой кнопкой мыши на карте для запуска БПЛА в нужное место</Russian>
+		</Key>
+		<Key ID="UAV_Operate">
+			<Original>UAV</Original>
+			<Russian>БПЛА</Russian>
+		</Key>
+		<Key ID="STR_UAV">
+			<Original>UAV</Original>
+			<Russian>БПЛА</Russian>
+		</Key>
+		<Key ID="UAV_ReadyToLaunch">
+			<Original>UAV ready to launch</Original>
+			<Russian>БПЛА готов к запуску</Russian>
+		</Key>
+		<Key ID="STR_UnauthorisedCrew">
+			<Original>You are not authorised to crew this vehicle!</Original>
+			<Russian>Вы не уполномочены управлять этой техникой!</Russian>
+		</Key>
+		<Key ID="STR_UnauthorisedPlace">
+			<Original>This place you are not available!</Original>
+			<Russian>Вам не доступно это место!</Russian>
+		</Key>
+		<Key ID="STR_UnauthorisedSide">
+			<Original>Not available your side!</Original>
+			<Russian>Недоступно для вашей стороны!</Russian>
+		</Key>
+		<!-- сообщения при завершении миссии -->
+		<Key ID="STR_win_call">
+			<Russian>В миссии победили %1</Russian>
+			<Original>%1 wins</Original>
+		</Key>
+		<Key ID="STR_dead_call">
+			<Russian>Все %1 погибли...</Russian>
+			<Original>All %1 KIA...</Original>
+		</Key>
+
+		<Key ID="STR_mission_end_admin">
+			<Russian>Миссия завершена досрочно</Russian>
+			<Original>Mission interrupted</Original>
+		</Key>
+		<!-- названия сторон, используется при завершении миссии -->
+		<Key ID="STR_taliban_call">
+			<Russian>бойцы Талибана</Russian>
+			<Original>Taliban fighters</Original>
+		</Key>
+		<Key ID="STR_usmc_call">
+			<Russian>Армия США</Russian>
+			<Original>US Army troops</Original>
+		</Key>
+		<Key ID="STR_side_ready">
+			<Original>%1 READY! (%2)</Original>
+			<Russian>%1 ГОТОВЫ! (%2)</Russian>
+		</Key>
+		<Key ID="STR_side_not_ready">
+			<Original>%1 NOT READY! (%2)</Original>
+			<Russian>%1 НЕ ГОТОВЫ! (%2)</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_OpticsChange">
+			<Original>Change optics</Original>
+			<Russian>Сменить оптику</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_OpticsChanging">
+			<Original>Changing optics...</Original>
+			<Russian>Меняем оптику...</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_OpticsBusy">
+			<Original>[OPTICS CHANGE]\nPlayer is busy</Original>
+			<Russian>[СМЕНА ОПТИКИ]\nИгрок занят</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_OpticsMoved">
+			<Original>[OPTICS CHANGE]\nFailed. Dont move!</Original>
+			<Russian>[СМЕНА ОПТИКИ]\nНе удалось. Не двигайтесь!</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_OpticsNotFound">
+			<Original>[OPTICS CHANGE]\nNo changeable optics found!</Original>
+			<Russian>[СМЕНА ОПТИКИ]\nНе найдена оптика на замену!</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_OpticsChangedTo">
+			<Original>[OPTICS CHANGE]\nChanged: %1\nTo: %2</Original>
+			<Russian>[СМЕНА ОПТИКИ]\nЗаменено: %1\nНа: %2</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_SpawnZoneType">
+			<Original>Spawn zone mode</Original>
+			<Russian>Режим зоны старта</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_SpawnZoneType_1">
+			<Original>Common zone</Original>
+			<Russian>Общая зона</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_SpawnZoneType_2">
+			<Original>Independent squads</Original>
+			<Russian>Независимые отделения</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_ChangeOptics">
+			<Original>Change NV Optics</Original>
+			<Russian>Смена НВ-прицелов</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_HardFreeze">
+			<Original>Hard freeze</Original>
+			<Russian>Hard freeze</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_HardFreeze_1">
+			<Original>1 minute</Original>
+			<Russian>1 минута</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_HardFreeze_2">
+			<Original>2 minutes</Original>
+			<Russian>2 минуты</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_HardFreeze_3">
+			<Original>3 minutes</Original>
+			<Russian>3 минуты</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_HardFreeze_4">
+			<Original>5 minutes</Original>
+			<Russian>5 минут</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_HardFreeze_5">
+			<Original>Till admin cancels</Original>
+			<Russian>До отмены админом</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_HardFreeze_Wait">
+			<Original>Hard Freeze enabled. %1 minutes...</Original>
+			<Russian>Включен Hard Freeze. %1 минут...</Russian>
+		</Key>
+		<Key ID="STR_MAMaS_HardFreeze_Disabled">
+			<Original>Hard Freeze disabled</Original>
+			<Russian>Hard Freeze отключен</Russian>
+		</Key>
+    </Container>
+  </Package>
+</Project>
